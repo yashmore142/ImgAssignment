@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:src="@drawable/nature"
+        android:layout_width="match_parent"
+        android:layout_height="288dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/animals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animals" />
+
+    <Button
+        android:id="@+id/flowers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flowers" />
+
+    <Button
+        android:id="@+id/planets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Planets" />
+</LinearLayout>
